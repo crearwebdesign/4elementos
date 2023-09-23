@@ -17,7 +17,7 @@ Version: 2.0.0
     --heading-font-size: 2.5rem;
     --heading-line-height: 1.3;
     --heading-font-weight: 700;
-    --accent-color: #186ADC;
+    --accent-color: #380b11;
     --el-gradient-start: #1859B4;
     --el-gradient-end: #0467F1;
     --background-color: #ffffff;
@@ -2748,7 +2748,7 @@ textarea {
 
 .logo {
     --logo-max-width: 133px;
-    --logo-max-height: 36px;
+    --logo-max-height: 133px;
     display: inline-flex;
     text-decoration: none;
 }
@@ -2772,6 +2772,21 @@ textarea {
     line-height: var(--heading-line-height);
     text-decoration: none;
     color: var(--text-primary);
+}
+
+.publicidad {
+    --logo-max-width: 333px;
+    --logo-max-height: 333px;
+    display: inline-flex;
+    text-decoration: none;
+}
+
+.publicidad img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    max-height: var(--logo-max-height);
+    max-width: var(--logo-max-width);
 }
 
 body.mmm-open {
