@@ -73,6 +73,13 @@ Version: 2.0.0
 === */
 /* === 1. Content === */
 /* 1.1 Fonts */
+
+@font-face {
+    font-family: "Caligrafia";
+  
+  src: url("../fonts/GoldencoastpersonaluseItalic-7BR0w.otf");
+}
+
 @font-face {
     font-family: "Source Sans Pro";
   font-style: normal;
@@ -146,7 +153,7 @@ body {
     font-family: var(--font-family);
     font-weight: var(--font-weight);
     font-style: var(--font-style);
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     color: var(--text-primary);
     margin: 0;
     padding: 0;
@@ -154,9 +161,9 @@ body {
     background-color: var(--background-color);
 }
 
-body.overflow-hidden {
+/* body.overflow-hidden {
     overflow: hidden;
-}
+} */
 
 .main {
     position: relative;
@@ -182,7 +189,7 @@ body.overflow-hidden {
 
 .main-inner {
     flex: 1 0 auto;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .footer {
@@ -3217,7 +3224,7 @@ body.mmm-open .mmm {
 .footer {
     position: relative;
     /*background-color: var(--text-primary);*/
-    background-color: #e0cab8;
+    background-color: #e0d3c9e0;
     width: 100%;
     color: var(--background-color);
     font-size: 1rem;
