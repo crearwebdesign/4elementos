@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+
 import { NopagefoundComponent } from './pages/nopagefound/nopagefound.component';
 import { PrincipalComponent } from './pages/principal/principal.component';
 import { BreadcrumsComponent } from './shared/breadcrums/breadcrums.component';
@@ -10,6 +11,7 @@ import { SidebarComponent } from './shared/sidebar/sidebar.component';
 import { HeaderComponent } from './shared/header/header.component';
 import { RegisterComponent } from './registro/register/register.component';
 import { FooterComponent } from './shared/footer/footer.component';
+
 
 @NgModule({
   declarations: [
@@ -21,6 +23,7 @@ import { FooterComponent } from './shared/footer/footer.component';
     HeaderComponent,
     RegisterComponent,
     FooterComponent
+    
   ],
   imports: [
     BrowserModule,
