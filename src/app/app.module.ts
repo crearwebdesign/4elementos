@@ -11,6 +11,7 @@ import { SidebarComponent } from './shared/sidebar/sidebar.component';
 import { HeaderComponent } from './shared/header/header.component';
 import { RegisterComponent } from './registro/register/register.component';
 import { FooterComponent } from './shared/footer/footer.component';
+import { AboutComponent } from './pages/about/about.component';
 
 
 @NgModule({
@@ -22,14 +23,14 @@ import { FooterComponent } from './shared/footer/footer.component';
     SidebarComponent,
     HeaderComponent,
     RegisterComponent,
-    FooterComponent
+    FooterComponent,
+    AboutComponent
     
   ],
   imports: [
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
