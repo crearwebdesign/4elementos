@@ -12,6 +12,7 @@ import { HeaderComponent } from './shared/header/header.component';
 import { RegisterComponent } from './registro/register/register.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { AboutComponent } from './pages/about/about.component';
+import { LibroComponent } from './pages/libro/libro.component';
 
 
 @NgModule({
@@ -24,7 +25,8 @@ import { AboutComponent } from './pages/about/about.component';
     HeaderComponent,
     RegisterComponent,
     FooterComponent,
-    AboutComponent
+    AboutComponent,
+    LibroComponent
     
   ],
   imports: [
