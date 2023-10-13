@@ -13,6 +13,7 @@ import { RegisterComponent } from './registro/register/register.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { AboutComponent } from './pages/about/about.component';
 import { LibroComponent } from './pages/libro/libro.component';
+import { ContactoComponent } from './pages/contacto/contacto.component';
 
 
 @NgModule({
@@ -26,7 +27,8 @@ import { LibroComponent } from './pages/libro/libro.component';
     RegisterComponent,
     FooterComponent,
     AboutComponent,
-    LibroComponent
+    LibroComponent,
+    ContactoComponent
     
   ],
   imports: [
