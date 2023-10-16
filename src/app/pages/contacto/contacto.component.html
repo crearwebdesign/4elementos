@@ -58,7 +58,7 @@
 							</div>
 						</div>
 						<div class="col-xl-8 col-md-7 content-item">
-							<form action="#!" method="post" class="form-submission contact-form contact-form-padding" novalidate>
+							<form action="https://formsubmit.co/9f4e4e2ce5f511e0556425a69b7df846" method="post" class="form-submission contact-form contact-form-padding">
 								<input type="hidden" name="Subject" value="Contact form">
 								<div class="row gutters-default">
 									<div class="col-12">
@@ -66,26 +66,37 @@
 									</div>
 									<div class="col-xl-4 col-sm-6 col-12">
 										<div class="form-field">
-											<label for="contact-name" class="form-field-label">Nombre completo</label>
-											<input type="text" class="form-field-input" name="Name" value="" autocomplete="off" id="contact-name" required data-pristine-required-message="Este campo es requerido.">
+											<label for="contact-name" class="form-field-label"></label>
+											<input type="text" class="form-field-input" name="Name" value="" autocomplete="on" 
+                                                   id="contact-name" required 
+                                                   placeholder="Nombre completo">
 										</div>
 									</div>
 									<div class="col-xl-4 col-sm-6 col-12">
 										<div class="form-field">
-											<label for="contact-phone" class="form-field-label">Numero teléfono</label>
-											<input type="tel" class="form-field-input mask-phone" name="Phone" value="" autocomplete="off" id="contact-phone" required data-pristine-required-message="Este campo es requerido.">
+											<label for="contact-phone" class="form-field-label"></label>
+											<input type="tel" class="form-field-input mask-phone" 
+                                                   name="Phone" value="" autocomplete="off" 
+                                                   id="contact-phone" required data-pristine-required-message="Este campo es requerido."
+                                                   placeholder="Numero teléfono">
 										</div>
 									</div>
 									<div class="col-xl-4 col-12">
 										<div class="form-field">
-											<label for="contact-email" class="form-field-label">Correo electrónico</label>
-											<input type="email" class="form-field-input" name="Email" value="" autocomplete="off" id="contact-email" required data-pristine-required-message="Este campo es requerido." data-pristine-email-message="Por favor indique un correo válido.">
+											<label for="contact-email" class="form-field-label"></label>
+											<input type="email" class="form-field-input" name="Email" value="" 
+                                             autocomplete="off" id="contact-email" 
+                                             required data-pristine-required-message="Este campo es requerido." 
+                                             data-pristine-email-message="Por favor indique un correo válido."
+                                             placeholder="Correo electrónico">
 										</div>
 									</div>
 									<div class="col-12">
 										<div class="form-field">
-											<label for="contact-message" class="form-field-label">Mensaje</label>
-											<textarea name="Message" class="form-field-input" id="contact-message" cols="30" rows="6"></textarea>
+											<label for="contact-message" class="form-field-label"></label>
+											<textarea name="Message" class="form-field-input" 
+                                             id="contact-message" cols="30" rows="6"
+                                             placeholder="Mensaje"></textarea>
 										</div>
 										<div class="form-btn">
 											<button type="submit" class="btn btn-w240 ripple"><span>Enviar</span></button>
